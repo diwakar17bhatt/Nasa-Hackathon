@@ -1,0 +1,50 @@
+body {
+    background: #000000;
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10%;
+}
+
+.Discovery_{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: 80vh;
+    padding-top: 200px;
+}
+
+.Discovery_text {
+    color: rgb(255, 255, 255);
+    width: 45%;
+    font-size: 20px;
+    margin-right: 5%;
+}
+.Discovery_text h1{
+    font-size: 70px;
+}
+
+.Discovery_text p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.Discovery_imag {
+    width: 45%;
+    height: 60%;
+    background-image: url('https://science.nasa.gov/wp-content/uploads/2021/12/neo-surveyor-pia25253-1920x640-1.jpg?w=4096&format=jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-left: 5%;
+    margin-top: 10%;
+}

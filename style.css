@@ -1,0 +1,385 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* background-color: black; */
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding-top: 40PX;
+    background-color: black;
+}
+.nav2{
+    width: 90%;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.nav2 p img{
+    height: 100px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.nav2 ul li{
+    cursor: pointer;
+}
+.nav2 ul li button{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 20px;
+   
+}
+.nav2 ul li a{
+    color: white;
+    text-decoration:none ;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    font-family: sans-serif;
+    font-size: 20px;   
+    margin-top: -100px; 
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.main_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    width: 900px;
+}
+.main_text button{
+    height: 50px;
+    width: 170px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.main_text h1{
+    letter-spacing: 20px;
+    font-size: 50px;
+}
+.main_text p{
+    text-align: center;
+    width: 700px;
+    letter-spacing: 2px;
+}
+.gap{
+    height: 20px;
+    background-color: white;
+    margin-top: 190px;
+}
+.space{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+    width: 100vw;
+    background-color: white;
+    padding-top: 90px;
+    
+}
+.space_text{
+    height: 400px;
+    width: 400px;
+    font-size: 30px;
+    margin-top: -100px;
+}
+.space_text h1{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.space_text p{
+    font-size: 22px;
+}
+.space_imag{
+    height: 600px;
+    width: 50%;
+    background-image: url(https://static.pbslearningmedia.org/media/assets/st1701_Mz.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    margin-right: -100px;
+}
+.space_button{
+    margin-top: 30px;
+    height: 50px;
+    width: 170px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.space2{
+    display: flex;
+   
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+    width: 100vw;
+    background-color: white;
+    padding-top: 90px;
+}
+.space_imag2{
+    height: 600px;
+    width: 50%;
+    background-size: cover;
+    background-image: url(nearth.jpg);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.space_text2{
+    height: 400px;
+    text-align: end;
+    width: 400px;
+    font-size: 30px;
+    margin-top: -150px;
+}
+.space_text2 p{
+    font-size: 22px;
+    margin-top: 30px;
+}
+.top{
+    font-family: sans-serif;
+    
+}
+.top p{
+    font-size: 20px;
+}
+.top h1{
+    font-size: 60px;
+}
+.topic{
+    margin-top: 80px;
+    /* padding-top: 80px; */
+    height: 900px;
+    
+    display: flex;
+    justify-content: center;
+   
+}
+.intopic{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.box{
+    display: flex;
+    gap: 40px;
+    height: 80%;
+   
+}
+.box1{
+    width: 100%;
+    height: 100%;
+    
+    background-image: url(solar.jpeg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.inbox1{
+    display: flex;
+    
+    align-items: flex-end;
+    color: white;
+    
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.inbox1 p{
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+.inbox1 i{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.box2{
+    width: 100%;
+    height: 100%;
+    
+    background-image: url(game.jpeg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.inbox2{
+    display: flex;
+    
+    align-items: flex-end;
+    color: white;
+    
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.inbox2 p{
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+.inbox2 i{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.box3{
+    width: 100%;
+    height: 100%;
+    
+    background-image: url(quiz.jpeg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.inbox3{
+    display: flex;
+    
+    align-items: flex-end;
+    color: white;
+    
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.inbox3 p{
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+.inbox3 i{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.box4{
+    width: 100%;
+    height: 100%;
+    
+    background-image: url(other.jpeg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.inbox4{
+    display: flex;
+    
+    align-items: flex-end;
+    color: white;
+    
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.inbox4 p{
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+.inbox4 i{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.end{
+    height: 400px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+.endcontainer{
+    height: 90%;
+    width: 90%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    height: 100%;
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    gap: 40px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.cu{
+    display: flex;
+    gap: 20px;
+   
+    
+}
+.about{
+    height: 100%;
+    width: 50%;
+   
+    font-size: 20px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.about h1{
+    font-size: 50px;
+}
+.about p{
+    width: 70%;
+}
+.social{
+    font-size: 30px;
+    word-spacing: 20px;
+}
+.direct{
+    color: white;
+    display: flex;
+    text-decoration: none;
+}

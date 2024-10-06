@@ -1,0 +1,83 @@
+body {
+    background: #000000;
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
+
+.nav2 p img{
+    height: 100px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding-top: 40PX;
+    background-color: black;
+}
+.nav2{
+    width: 180px;
+    
+    justify-content: space-between;
+  
+    display: flex;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.Wild2_Comet{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+    width: 100vw;
+  
+    
+}
+.Wild2_text{
+    height: 400px;
+    width: 400px;
+    font-size: 30px;
+    margin-top: -100px;
+}
+.Wild2_text h1{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-left: -20%;
+}
+.Wild2_text h3{
+    margin-left: -20%;
+}
+.Wild2_text p{
+    font-size: 25px;
+    margin-left: -20%;
+}
+.Wild2_imag{
+    height: 700px;
+    width: 40%;
+    background-image: url(https://smd-cms.nasa.gov/wp-content/uploads/2023/07/Wild_2_stereo_pair_03_12_04_732.jpg);
+    margin-top: 1000px;
+    background-size: cover;
+    margin-right: -100px;
+}

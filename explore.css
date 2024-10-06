@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, sans-serif;
+    background-image: url('https://external-preview.redd.it/7BQ9Ig391FbwCzMSgnCCgrzbEpnWXufcUSKwe6g7GXI.jpg?auto=webp&s=7729ce0fa75865ea3e0a40076360938065072bfe');
+    color: #ffffff;
+    background-size: cover;
+    overflow-x: hidden;
+   
+}
+.main_container{
+    height: 100%;
+    width: 100%;
+     background-color: rgba(0,0,0,0.6);
+}
+.nav2 p img{
+    height: 100px;
+}
+.nav2 ul li{
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding-top: 40PX;
+    /* background-color: black; */
+}
+.nav2{
+    width: 90%;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+header {
+    /* background-color: #141414; */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    margin-top: 70px;
+    /* background-color: rgba(0,0,0,0.6); */
+}
+
+.faq-section {
+    
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.faq-item {
+    height: 90px;
+    background-color: #00000070;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    width: 93%;
+    font-size: 20px;
+    align-items: center;
+}
+
+.faq-question {
+    cursor: pointer;
+    color: white;
+    margin-bottom: 5px;
+    margin-left: 60px;
+}
+
+.faq-answer {
+    margin-left: 10px;
+    display: none; /* Initially hidden */
+}
+
+.faq-question:hover {
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1a1a1a;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

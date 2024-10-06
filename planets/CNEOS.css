@@ -1,0 +1,65 @@
+body {
+    background: #000000;
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+    width: 100vw;
+    padding-top: 90px;
+    
+}
+.space_text{
+    height: 400px;
+    width: 400px;
+    font-size: 30px;
+    margin-top: -590px;
+}
+.space_text h1{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+   display: inline-block;
+   align-items: center;
+}
+.space_text p{
+    font-size: 22px;
+    text-align: center;
+}
+.space_imag{
+    height: 400px;
+    width: 400px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b6/NASA-Logo-at-JPL-20201117.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    margin-right: -100px;
+    margin-top:20%;
+    
+    /* background-repeat: no-repeat; */
+
+}
+.space_button{
+    margin-top: 30px;
+    height: 50px;
+    width: 170px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+h1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    white-space: nowrap;
+} 

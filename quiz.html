@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+   
+    <div class="opacity">
+        <button class="pre"><a href="quizintro/quizi.html">Previous Page</a></button>
+        <div class="quiz-container">
+            
+            <div id="quiz" class="quiz-box">
+                <p id="feedback"></p>
+
+                <h2 id="question">Question Text</h2>
+                <ul>
+                    <li>
+                        <input type="radio" id="a" name="answer" class="answer">
+                        <label for="a" id="a_text"></label>
+                    </li>
+                    <li>
+                        <input type="radio" id="b" name="answer" class="answer">
+                        <label for="b" id="b_text">Answer B</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="c" name="answer" class="answer">
+                        <label for="c" id="c_text">Answer C</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="d" name="answer" class="answer">
+                        <label for="d" id="d_text">Answer D</label>
+                    </li>
+                </ul>
+                <button id="submit">next</button>
+            </div>
+            <div id="result" class="result-box" style="display: none;">
+                <h2 id="score"></h2>
+                <button id="reload">Reload Quiz</button>
+            </div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

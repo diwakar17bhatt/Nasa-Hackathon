@@ -1,0 +1,47 @@
+body {
+    background: #000000;
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-top: 30%;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Defence_{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: 80vh;
+    padding-top: 200px;
+}
+
+.Defence_text {
+    color: rgb(255, 255, 255);
+    width: 45%;
+    font-size: 20px;
+    margin-right: 5%;
+}
+
+.Defence_text p {
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.Defence_imag {
+    width: 45%;
+    height: 60%;
+    background-image: url('https://www.warpnews.org/content/images/2021/05/asteroid_grand_challenge_kinetic_impacter.png');
+    background-size: cover;
+    background-position: center;
+    margin-left: 5%;
+    margin-top: 10%;
+}

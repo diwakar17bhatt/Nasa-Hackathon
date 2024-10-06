@@ -1,0 +1,84 @@
+body {
+    background: #000000;
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.nav2 p img{
+    height: 100px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding-top: 40PX;
+    background-color: black;
+}
+.nav2{
+    width: 180px;
+    
+    justify-content: space-between;
+  
+    display: flex;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.Borrelly_Comet{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+    width: 100vw;
+
+    
+}
+.Borrelly_text{
+    height: 400px;
+    width: 400px;
+    font-size: 30px;
+    margin-top: -100px;
+    color:white;
+}
+.Borrelly_text h1{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-left: -20%;
+}
+.Borrelly_text h3{
+    margin-left: -20%;
+}
+.Borrelly_text p{
+    font-size: 25px;
+    margin-left: -20%;
+}
+.Borrelly_imag{
+    height: 700px;
+    width: 50%;
+    background-image: url(https://stsci-opo.org/STScI-01EVSV6RAD2XZGBNKD66KS2D51.jpg);
+    margin-top: 1000px;
+    background-size: cover;
+    margin-right: -100px;
+}

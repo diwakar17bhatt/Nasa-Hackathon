@@ -1,0 +1,51 @@
+body{
+    background-image: url("https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?cs=srgb&dl=pexels-philippedonn-1169754.jpg&fm=jpg");
+    overflow-x: hidden;
+    background-size: cover;
+}
+.space{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+    width: 100vw;
+    
+    padding-top: 90px;
+    
+}
+.space_text{
+    height: 400px;
+    width: 800px;
+    font-size: 30px;
+    margin-top: -190px;
+   
+}
+.space_text h1{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.space_text p{
+    font-size: 22px;
+}
+.space_imag{
+    height: 500px;
+    width: 50%;
+    background-image: url("");
+    
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    margin-right: -100px;
+    margin-top:20%;
+    
+}
+.space_button{
+    margin-top: 30px;
+    height: 50px;
+    width: 170px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+

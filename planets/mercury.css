@@ -1,0 +1,52 @@
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/026/789/805/non_2x/of-the-starry-sky-summer-spring-triangle-of-bright-stars-vega-alpha-lyra-deneb-alpha-cygnus-and-altair-alpha-eagle-free-photo.jpg");
+    overflow-x: hidden;
+    background-size: cover;
+    font-family: sans-serif;
+   
+}
+.space{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+    width: 100vw;
+    padding-left: 39px;
+    
+    
+}
+.space_text{
+    height: 400px;
+    width: 600px;
+    font-size: 30px;
+    margin-top: -100px;
+}
+.space_text h1{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.space_text p{
+    font-size: 22px;
+}
+.space_imag{
+    height: 700px;
+    width: 700px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b9/3D_Mercury.png?20150725174636");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    margin-right: 100px;
+    margin-top:30%;
+    
+}
+.space_button{
+    margin-top: 30px;
+    height: 50px;
+    width: 170px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
